@@ -5,19 +5,26 @@ using System.Text;
 
 namespace Jaiden.Proof
 {
-    
+
     class Program
     {
-        static void Main(string[] args)
+        unsafe static void Main(string[] args)
         {
+            int via = 100;
 
+            Console.WriteLine(via);
+            change(&via);
+            Console.WriteLine(via);
 
-            string value = IDateTime.Now;
-            DateTime dt = IDateTime.Now;
-            
-            Console.WriteLine(value);
-            
             Console.Read();
+
+
+
+        }
+
+        unsafe static void change(int* value)
+        {
+            *value = 300;
         }
     }
 }

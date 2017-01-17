@@ -27,7 +27,7 @@ namespace Jaiden.Proof
 
         public static implicit operator string(IDateTime value)
         {
-            return value._this.ToString("yyyy MM dd HH:mm:ss");
+            return value._this.ToString("yyyy-MM-dd HH:mm:ss");
         }
 
         public static implicit operator IDateTime(string value)
