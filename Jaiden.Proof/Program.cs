@@ -11,7 +11,6 @@ namespace Jaiden.Proof
         unsafe static void Main(string[] args)
         {
             //int via = 100;
-
             //Console.WriteLine(via);
             //change(&via);
             //Console.WriteLine(via);
