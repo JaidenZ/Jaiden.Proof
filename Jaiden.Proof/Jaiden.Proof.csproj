@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caculate\ForkAlgori.cs" />
     <Compile Include="implicitEntity\IByte.cs" />
     <Compile Include="implicitEntity\IDateTime.cs" />
     <Compile Include="OddEven.cs" />
