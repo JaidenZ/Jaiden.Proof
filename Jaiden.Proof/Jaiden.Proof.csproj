@@ -58,11 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caculate\ForkAlgori.cs" />
+    <Compile Include="Reflex\ConverseUnit.cs" />
     <Compile Include="implicitEntity\IByte.cs" />
     <Compile Include="implicitEntity\IDateTime.cs" />
     <Compile Include="OddEven.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reflex\ModelUnit.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

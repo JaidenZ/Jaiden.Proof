@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace Jaiden.Proof.Converse
+namespace Jaiden.Proof.Relex
 {
     /// <summary>
     /// 允许字段反转属性
@@ -57,6 +57,7 @@ namespace Jaiden.Proof.Converse
                     object value = fi.GetValue(obj);
                     value = ReserveUnit.Reverse(fi.FieldType, value);
                     fi.SetValue(obj, value);
+                    
                 }
             }
             return obj;
