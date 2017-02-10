@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace Jaiden.Proof.Relex
+namespace Jaiden.Proof.Reflex
 {
     /// <summary>
     /// 允许字段反转属性

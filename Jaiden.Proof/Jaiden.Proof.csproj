@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caculate\ForkAlgori.cs" />
+    <Compile Include="Entity\ConverseT.cs" />
     <Compile Include="Reflex\ConverseUnit.cs" />
     <Compile Include="implicitEntity\IByte.cs" />
     <Compile Include="implicitEntity\IDateTime.cs" />
